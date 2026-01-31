@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TrueloveHomeCareGA LLC provides compassionate in-home care in Blairsville, GA. Care with True Love.">
+  <title>TrueloveHomeCareGA LLC | Compassionate In-Home Care in Blairsville, GA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['DM Sans', 'system-ui', 'sans-serif'],
+            serif: ['Source Serif 4', 'Georgia', 'serif'],
+          },
+          colors: {
+            primary: {
+              50: '#eef0fb',
+              100: '#d9daf6',
+              200: '#b5b6ed',
+              300: '#8b8ce2',
+              400: '#6664d6',
+              500: '#312eb4',
+              600: '#2a289e',
+              700: '#242287',
+              800: '#1e1c70',
+              900: '#181659',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="font-sans text-gray-800 antialiased">
+  <!-- Top Nav -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="#" class="flex items-center gap-2 flex-shrink-0">
+          <img src="assets/logo.svg" alt="TrueloveHomeCare GA" class="h-11 md:h-14 w-auto object-contain">
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#services" class="text-primary-500 hover:text-primary-600 transition-colors">Services</a>
+          <a href="#why-us" class="text-primary-500 hover:text-primary-600 transition-colors">About</a>
+          <a href="#contact" class="text-primary-500 hover:text-primary-600 transition-colors">Contact</a>
+          <a href="tel:+14707890509" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary-500 text-white font-semibold hover:bg-primary-600 transition-colors shadow-md">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            Call Now
+          </a>
+        </div>
+        <button type="button" id="mobile-menu-btn" class="md:hidden p-2 text-gray-600 hover:text-primary-500" aria-label="Open menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden pb-4">
+        <div class="flex flex-col gap-3">
+          <a href="#services" class="text-primary-500 hover:text-primary-600 py-2">Services</a>
+          <a href="#why-us" class="text-primary-500 hover:text-primary-600 py-2">About</a>
+          <a href="#contact" class="text-primary-500 hover:text-primary-600 py-2">Contact</a>
+          <a href="tel:+14707890509" class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-primary-500 text-white font-semibold">Call Now</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-24 md:pt-28 pb-12 md:pb-16 lg:pb-20 bg-gradient-to-br from-primary-50 via-white to-primary-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div>
+          <p class="text-primary-500 font-semibold mb-2">Care with True Love.</p>
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-900 leading-tight mb-4">
+            Compassionate In-Home Care in Blairsville, GA
+          </h1>
+          <p class="text-lg text-gray-600 mb-8 max-w-xl">
+            We provide personalized, kindhearted care so your loved ones can stay safely at home. From companionship to daily support—we&apos;re here for your family.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="tel:+14707890509" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-primary-500 text-white font-semibold hover:bg-primary-600 transition-colors shadow-lg shadow-primary-500/25">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              Call Now
+            </a>
+            <a href="#contact" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-primary-500 text-primary-600 font-semibold hover:bg-primary-50 transition-colors">
+              Request Consultation
+            </a>
+          </div>
+        </div>
+        <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl bg-primary-100">
+          <img src="assets/HeroImage/top.jpg" alt="Warm, caring in-home care setting" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="py-10 md:py-14 bg-white border-y border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-6">
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">Personalized care plans</h3>
+            <p class="text-sm text-gray-600">Tailored to your loved one&apos;s needs and preferences.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">Caregiver matching</h3>
+            <p class="text-sm text-gray-600">We match your family with caring, compatible caregivers.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">Flexible scheduling</h3>
+            <p class="text-sm text-gray-600">Visit times that fit your family&apos;s schedule.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">Safety-first support</h3>
+            <p class="text-sm text-gray-600">Focus on comfort and peace of mind at home.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 sm:col-span-2 lg:col-span-1">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">Local & attentive</h3>
+            <p class="text-sm text-gray-600">Serving Blairsville and surrounding areas with care.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 md:py-24 bg-primary-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 md:mb-16">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-primary-900 mb-4">Our Services</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto md:whitespace-nowrap">Support that helps your loved ones thrive at home. Each service is tailored to fit their daily life.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/HeroImage/companion.jpg" alt="Companion Care" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-2">Companion Care</h3>
+            <p class="text-gray-600">Friendly visits for conversation, activities, and companionship so your loved one feels connected and cared for.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/HeroImage/personal%20care.jpg" alt="Personal Care" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-2">Personal Care</h3>
+            <p class="text-gray-600">Assistance with bathing, dressing, grooming, and mobility to help maintain comfort and dignity at home.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/HeroImage/house%20keeping.jpg" alt="Light Housekeeping" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-2">Light Housekeeping</h3>
+            <p class="text-gray-600">Laundry, tidying, and light chores to keep the home clean and pleasant.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/HeroImage/meal.jpg" alt="Meal Prep" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-2">Meal Prep</h3>
+            <p class="text-gray-600">Planning and preparing nutritious meals and snacks to support healthy eating habits.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/HeroImage/transport.jpg" alt="Transportation & Errands" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-2">Transportation & Errands</h3>
+            <p class="text-gray-600">Rides to appointments, grocery shopping, and other errands so your loved one stays independent.</p>
+          </div>
+        </article>
+        <article class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/HeroImage/respite.jpg" alt="Respite Care" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-2">Respite Care</h3>
+            <p class="text-gray-600">Short-term care so family caregivers can take a well-deserved break and recharge.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why families choose us -->
+  <section id="why-us" class="py-16 md:py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-primary-900 mb-6">Why Families Choose Us</h2>
+          <ul class="space-y-4">
+            <li class="flex gap-4">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-3.5 h-3.5 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              </span>
+              <span><strong class="text-gray-900">Kindness first.</strong> We treat every client like family, with warmth and respect.</span>
+            </li>
+            <li class="flex gap-4">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-3.5 h-3.5 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              </span>
+              <span><strong class="text-gray-900">Reliable and consistent.</strong> You can count on us to show up when we say we will.</span>
+            </li>
+            <li class="flex gap-4">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-3.5 h-3.5 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              </span>
+              <span><strong class="text-gray-900">Clear communication.</strong> We keep you informed and easy to reach when questions arise.</span>
+            </li>
+            <li class="flex gap-4">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-3.5 h-3.5 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              </span>
+              <span><strong class="text-gray-900">Dignity and respect.</strong> We honor your loved one&apos;s preferences and lifestyle.</span>
+            </li>
+            <li class="flex gap-4">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-3.5 h-3.5 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              </span>
+              <span><strong class="text-gray-900">Support for independence.</strong> We help your loved one stay at home with confidence.</span>
+            </li>
+            <li class="flex gap-4">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-3.5 h-3.5 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              </span>
+              <span><strong class="text-gray-900">Years of experience.</strong> We&apos;ve spent years supporting families with special needs, so we understand what it takes.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 md:p-10">
+          <h3 class="font-serif text-2xl font-semibold text-gray-900 mb-4">Care with True Love.</h3>
+          <p class="text-gray-600 mb-6">At TrueloveHomeCareGA, we believe everyone deserves to age with comfort and grace in the place they call home. We&apos;re here to make that possible.</p>
+          <a href="#contact" class="inline-flex items-center gap-2 text-primary-600 font-semibold hover:text-primary-700">
+            Get started today
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="py-16 md:py-24 bg-primary-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 md:mb-16">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-primary-900 mb-4">How It Works</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Getting started is simple. We guide you through every step.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 md:gap-6">
+        <div class="relative">
+          <div class="bg-white rounded-2xl p-8 shadow-md h-full">
+            <div class="w-14 h-14 rounded-xl bg-primary-500 text-white flex items-center justify-center font-serif text-2xl font-bold mb-6">1</div>
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-3">Call or Request a Consultation</h3>
+            <p class="text-gray-600">Reach out by phone or fill out our form. We&apos;ll learn about your needs and answer your questions.</p>
+          </div>
+          <div class="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-primary-200 -translate-y-1/2"></div>
+        </div>
+        <div class="relative">
+          <div class="bg-white rounded-2xl p-8 shadow-md h-full">
+            <div class="w-14 h-14 rounded-xl bg-primary-500 text-white flex items-center justify-center font-serif text-2xl font-bold mb-6">2</div>
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-3">We Create a Care Plan</h3>
+            <p class="text-gray-600">Together we design a personalized plan and match your loved one with a caregiver who fits.</p>
+          </div>
+          <div class="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-primary-200 -translate-y-1/2"></div>
+        </div>
+        <div>
+          <div class="bg-white rounded-2xl p-8 shadow-md h-full">
+            <div class="w-14 h-14 rounded-xl bg-primary-500 text-white flex items-center justify-center font-serif text-2xl font-bold mb-6">3</div>
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-3">Start Care & Stay in Touch</h3>
+            <p class="text-gray-600">Care begins. We check in regularly to make sure everything is going well and adjust as needed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 md:mb-16">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-primary-900 mb-4">What Families Say</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Hear from families we&apos;ve had the privilege to support.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <blockquote class="bg-primary-50 rounded-2xl p-8">
+          <div class="flex gap-1 mb-4">
+            <svg class="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            <svg class="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="text-gray-700 mb-6">&quot;The caregiver who comes to help Mom is like part of the family. She&apos;s kind, dependable, and Mom looks forward to her visits.&quot;</p>
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center text-primary-600 font-semibold">JM</div>
+            <div>
+              <cite class="not-italic font-semibold text-gray-900">— Example Client (Placeholder)</cite>
+              <p class="text-sm text-gray-500">Family member</p>
+            </div>
+          </div>
+        </blockquote>
+        <blockquote class="bg-primary-50 rounded-2xl p-8">
+          <div class="flex gap-1 mb-4">
+            <svg class="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            <svg class="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="text-gray-700 mb-6">&quot;We needed someone reliable for respite care. TrueloveHomeCare made it easy to schedule and the caregiver was wonderful with Dad.&quot;</p>
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center text-primary-600 font-semibold">SK</div>
+            <div>
+              <cite class="not-italic font-semibold text-gray-900">— Example Client (Placeholder)</cite>
+              <p class="text-sm text-gray-500">Family member</p>
+            </div>
+          </div>
+        </blockquote>
+        <blockquote class="bg-primary-50 rounded-2xl p-8">
+          <div class="flex gap-1 mb-4">
+            <svg class="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            <svg class="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="text-gray-700 mb-6">&quot;Communication is great. I always know what&apos;s happening with Grandma&apos;s care. It gives us peace of mind.&quot;</p>
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center text-primary-600 font-semibold">AL</div>
+            <div>
+              <cite class="not-italic font-semibold text-gray-900">— Example Client (Placeholder)</cite>
+              <p class="text-sm text-gray-500">Family member</p>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+      <p class="text-center text-sm text-gray-500 mt-6">* Testimonials above are example placeholders. Replace with real client feedback when available.</p>
+    </div>
+  </section>
+
+  <!-- Final CTA band -->
+  <section class="py-14 md:py-20 bg-primary-500">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-4">Need Help Today?</h2>
+      <p class="text-primary-100 text-lg mb-8">We&apos;re here for you. Give us a call or request a free consultation.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+14707890509" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-white text-primary-600 font-semibold hover:bg-primary-50 transition-colors shadow-lg">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          (470) 789-0509
+        </a>
+        <a href="#contact" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors">
+          Request Consultation
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 bg-primary-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
+        <div>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-primary-900 mb-4">Get in Touch</h2>
+          <p class="text-gray-600 mb-8">Tell us about your needs. We&apos;ll respond as soon as we can.</p>
+          
+          <form id="contact-form" class="space-y-4">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name *</label>
+              <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition" placeholder="Your name">
+            </div>
+            <div>
+              <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone *</label>
+              <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition" placeholder="(470) 555-1234">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email *</label>
+              <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition" placeholder="you@example.com">
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+              <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition resize-none" placeholder="How can we help?"></textarea>
+            </div>
+            <div id="form-success" class="hidden p-4 rounded-lg bg-green-50 text-green-800 border border-green-200">
+              Thanks—we&apos;ll contact you soon!
+            </div>
+            <button type="submit" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-primary-500 text-white font-semibold hover:bg-primary-600 transition-colors shadow-md">
+              Send Message
+            </button>
+          </form>
+        </div>
+        <div>
+          <div class="bg-white rounded-2xl p-8 shadow-md mb-8">
+            <h3 class="font-serif text-xl font-semibold text-gray-900 mb-6">Contact Information</h3>
+            <address class="not-italic space-y-4">
+              <p class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-primary-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                <span>77 Alpine Way, Blairsville, GA 30512, USA</span>
+              </p>
+              <p class="flex items-center gap-3">
+                <svg class="w-5 h-5 text-primary-500 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <a href="tel:+14707890509" class="text-gray-700 hover:text-primary-600 transition-colors">(470) 789-0509</a>
+              </p>
+            </address>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=77+Alpine+Way,+Blairsville,+GA+30512" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-primary-300 text-primary-700 font-semibold hover:bg-primary-100 transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+            Open in Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 bg-gray-900 text-gray-400">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="text-center md:text-left">
+          <p class="font-semibold text-white">TrueloveHomeCareGA LLC</p>
+          <p class="text-sm mt-1">77 Alpine Way, Blairsville, GA 30512, USA</p>
+          <p class="text-sm"><a href="tel:+14707890509" class="hover:text-white transition-colors">(470) 789-0509</a></p>
+        </div>
+        <p class="text-xs max-w-md text-center md:text-right">Services are non-medical in-home support. Availability varies.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('#mobile-menu a').forEach(function(link) {
+      link.addEventListener('click', function() { document.getElementById('mobile-menu').classList.add('hidden'); });
+    });
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const form = this;
+      form.querySelectorAll('input, textarea').forEach(el => el.disabled = true);
+      form.querySelector('button[type="submit"]').disabled = true;
+      document.getElementById('form-success').classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
