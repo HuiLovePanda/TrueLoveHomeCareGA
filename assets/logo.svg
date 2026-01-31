@@ -1,12 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 52" fill="none" aria-hidden="true">
-  <defs>
-    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#312eb4"/>
-      <stop offset="100%" style="stop-color:#6664d6"/>
-    </linearGradient>
-  </defs>
-  <!-- Heart icon -->
-  <path d="M10 24c0-5 5-8 10-8s10 3 10 8c0 7-10 15-10 15S10 31 10 24z" fill="url(#logoGrad)"/>
-  <text x="38" y="24" font-family="Georgia, serif" font-size="16" font-weight="600" fill="#1f2937">Truelove</text>
-  <text x="38" y="38" font-family="Georgia, serif" font-size="14" font-weight="600" fill="#1f2937">HomeCare GA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 52" fill="none" aria-hidden="true">
+  <text x="0" y="24" font-family="Georgia, serif" font-size="16" font-weight="600" fill="#1f2937">Truelove</text>
+  <text x="0" y="38" font-family="Georgia, serif" font-size="14" font-weight="600" fill="#1f2937">HomeCare GA</text>
 </svg>
